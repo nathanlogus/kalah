@@ -1,0 +1,95 @@
+
+<div *ngIf="gameStatus" fxLayout="row" fxLayoutAlign="space-between" class="board">
+    <div fxFlex="20" class="left-house">
+      <div class="player-house p2-bg">
+        <span class="seeds-counter">{{gameStatus.pits[13].quantityOfSeeds}}</span>
+      </div>
+    </div>
+    <div fxFlex class="board-middle">
+      <div fxLayout="row" class="board-row" fxLayoutGap="20px">
+        <div fxLayout="column">
+          <span class="pit-index">12</span>
+          <div class="pit" (click)="selectPit(13)">
+            <span class="seeds-counter">{{gameStatus.pits[12].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">11</span>
+          <div class="pit" (click)="selectPit(12)">
+            <span class="seeds-counter">{{gameStatus.pits[11].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">10</span>
+          <div class="pit" (click)="selectPit(11)">
+            <span class="seeds-counter">{{gameStatus.pits[10].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">9</span>
+          <div class="pit" (click)="selectPit(10)">
+            <span class="seeds-counter">{{gameStatus.pits[9].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">8</span>
+          <div class="pit" (click)="selectPit(9)">
+            <span class="seeds-counter">{{gameStatus.pits[8].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">7</span>
+          <div class="pit" (click)="selectPit(8)">
+            <span class="seeds-counter">{{gameStatus.pits[7].quantityOfSeeds}}</span>
+          </div>
+        </div>
+  
+      </div>
+      <div fxLayout="row" class="board-row" fxLayoutGap="20px">
+        <div fxLayout="column">
+          <span class="pit-index">1</span>
+          <div class="pit" (click)="selectPit(1)">
+            <span class="seeds-counter">{{gameStatus.pits[0].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">2</span>
+          <div class="pit" (click)="selectPit(2)">
+            <span class="seeds-counter">{{gameStatus.pits[1].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">3</span>
+          <div class="pit" (click)="selectPit(3)">
+            <span class="seeds-counter">{{gameStatus.pits[2].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">4</span>
+          <div class="pit" (click)="selectPit(4)">
+            <span class="seeds-counter">{{gameStatus.pits[3].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">5</span>
+          <div class="pit" (click)="selectPit(5)">
+            <span class="seeds-counter">{{gameStatus.pits[4].quantityOfSeeds}}</span>
+          </div>
+        </div>
+        <div fxLayout="column">
+          <span class="pit-index">6</span>
+          <div class="pit" (click)="selectPit(6)">
+            <span class="seeds-counter">{{gameStatus.pits[5].quantityOfSeeds}}</span>
+          </div>
+        </div>
+  
+      </div>
+  
+  
+    </div>
+    <div fxFlex="20" class="right-house">
+      <div class="player-house p1-bg">
+        <span class="seeds-counter">{{gameStatus.pits[6].quantityOfSeeds}}</span>
+      </div>
+    </div>
+  </div>

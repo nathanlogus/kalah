@@ -1,0 +1,64 @@
+.board {
+    width: 100%;
+    height: 100%;
+    left: 10px;
+    box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+.board-middle {
+    background-color: #AF8554;
+    box-shadow: 0px 10px #83603B;
+}
+
+.left-house {
+    padding: 50px;
+    border-radius: 50px 0 0 50px;
+    background-color: #AF8554;
+    box-shadow: 0px 10px #83603B;
+}
+
+.right-house {
+    padding: 50px;
+    border-radius: 0 50px 50px 0;
+    background-color: #AF8554;
+    box-shadow: 0px 10px #83603B;
+}
+
+.pit {
+    width: 20px;
+    height: 20px;
+    padding: 70px;
+    background-color: #83603B;
+    box-shadow: inset 0 10px #614629;
+    border-radius: 50%;
+}
+
+.pit:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 50px rgba(255, 0, 0, 0.856), inset 0 10px #614629;
+}
+
+.board-row {
+    height: 50%;
+    padding: 10px;
+}
+
+.player-house {
+    width: 120px;
+    height: 90%;
+    background-color: #83603B;
+    box-shadow: inset 0 10px #614629;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.pit-index {
+    text-align: center;
+    font-size: 24px;
+}
+
+.seeds-counter {
+    font-size: 24px;
+    line-height: 24px;
+}

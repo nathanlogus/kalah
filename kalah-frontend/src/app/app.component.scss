@@ -1,0 +1,31 @@
+h1 {
+    font-size: 32px;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.active {
+    background-color: #41784b;
+    padding: 20px;
+    border-radius: 25px;
+    border: 5px solid #f4b012;
+}
+
+.board {
+    width: 100%;
+    height: 50%;
+}
+
+app-board {
+    margin: auto;
+}

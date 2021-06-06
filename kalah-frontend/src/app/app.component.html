@@ -1,0 +1,11 @@
+<div fxLayout="row" fxLayoutAlign="space-between">
+  <h1 *ngIf="gameStatus">Game Id: {{gameStatus.id}}</h1>
+</div>
+
+<div fxLayout="row" fxLayoutAlign="space-between">
+  <h2 *ngIf="gameStatus">Current Player: <span class="active">{{checkPlayer()}}</span></h2>
+</div>
+
+<div fxLayout="row" fxLayoutAlign="space-between" class="board">
+  <app-board [gameStatus]="gameStatus"></app-board>
+</div>
