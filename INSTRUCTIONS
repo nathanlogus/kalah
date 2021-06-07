@@ -1,0 +1,13 @@
+cd kalah-frontend
+npm install
+ng build
+docker build -t kalah-frontend .
+docker run --name kalah-frontend -d -p 8080:80 kalah-frontend
+
+cd kalah-backend
+mvn clean install
+docker build -t kalah-backend .
+docker run --name kalah-backend -d -p 8080:8080 kalah-backend
+
+docker image ls
+docker-compose up -d
