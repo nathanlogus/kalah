@@ -53,14 +53,54 @@ This solution consists of two applications implemented using Java (Spring Boot S
 * `Angular Material`, Material Design components used in the application layout;
 * `Angular Flex Layout`, creation of responsive layouts;
 
-## Prerequisites
+## Installation
+Follow these instructions in order to try the application.
+
+### Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 * `Node.JS` and `Angular CLI`, for building the `kalah-frontend`;
 * `Java 11` and `Maven`, for building the `kalah-backend`;
 * `Docker` and `Docker-Compose`, to build and run the application containers;
 
-## Installation
-> TODO
+Also make sure that the following ports are available:
+* `80`, used for the nginx container holding the `kalah-frontend`;
+* `8080`, used for the openjdk container holding the `kalah-backend`;
+* `5050`, used for the pgAdmin application;
+* `5432`, used for the PostgreSQL Database Server;
+
+### 1. Kalah Frontend Application
+Execute the following commands in order to build and generate the docker container images:
+1. Enter the `kalah-frontend` folder:  
+``$ cd kalah-frontend ``  
+2. Install the node dependencies:  
+``$ npm install``  
+3. Build the distributable application:  
+``$ ng build``  
+4. Execute the Docker build to generate the docker container image:  
+``$ docker build -t kalah-frontend .``
+
+### 2. Kalah Backend Application
+Execute the following commands in order to build and generate the docker container images:
+
+1. Enter the `kalah-backend` folder:  
+``$ cd kalah-backend``
+2. Execute the following maven command to clean the target folder and generate the distributable .jar file:  
+``$ mvn clean install``  
+3. Execute the Docker build to generate the docker container image:  
+``$ docker build -t kalah-backend .``  
+
+### 3. Kalah Application (Docker-Compose)
+From the root folder of this project execute the following commands.
+1. First check if the images were successfully generated using the command:  
+``$ docker image ls``  
+
+2. Execute the following command to setup the whole application and deploy:  
+``$ docker-compose up -d``
+
+3. You can access the frontend application accessing the following address:  
+``http://localhost``
+
+
 
 ## Future Improvements
 * `kalah-frontend`: 
