@@ -1,83 +1,70 @@
 <div align="center">
-<h1>Kalah Implementation</h1>
-
-<p>This is a Java RESTful Web Service that runs a game of 4-stone Kalah. This web service enables 2 human players to play the game, each in his own computer. There is no AI implemented.</p>
-
-<p>This is a project </p>
-
-<br />
+<h1>Kalah</h1>
 
 [**Game Rules**](https://en.wikipedia.org/wiki/Kalah)
-<br />
 </div>
 
 <hr />
 
 <!-- prettier-ignore-start -->
 [![MIT License][license-badge]][license]
-
 <!-- prettier-ignore-end -->
 
 ## Table of Contents
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [The problem](#the-problem)
-- [The solution](#the-solution)
-- [Installation](#installation)
-  - [Suppressing unnecessary warnings on React DOM 16.8](#suppressing-unnecessary-warnings-on-react-dom-168)
-- [Contributors](#contributors)
-- [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## The problem
+## About
+This solution consists of two applications implemented using Java (Spring Boot Service) and Javascript (Angular Framework), details are pointed below:
+
+* `kalah-backend`: Spring Boot service, responsible for creating and managing the game sessions which are stored in a PostgreSQL database server.
+
+* `kalah-frontend`: Angular project responsible for the user interface, it comunicates with the `kalah-backend` in order to create and update the status of the gaming board as well as beign responsible for presenting the game winner once the game is end.
+
+## Architecture
 
 
+## Technologies
+* `Spring Boot v2.5.0`, for creating RESTful API;
+* `Spring Data`, for managing the Database Server entities;
+* `JUnit`, used for unit testing of the application;
+* `Swagger`, used for API documentation;
+* `Lombok`, used for annotating getters and setters methods;
+* `Model Mapper`, used for object mapping;
+* `PostgreSQL`, used to store the necessary data;
+* `Docker and Docker-Compose`, containerization of the services and linking containers;
+* `Angular v12`, implementation of user interface;
+* `Angular Material`, Material Design components used in Angular;
+* `Angular Flex Layout`, creation of responsive layouts;
 
-You want to write maintainable tests for your React components. As a part of
-this goal, you want your tests to avoid including implementation details of your
-components and rather focus on making your tests give you the confidence for
-which they are intended. As part of this, you want your testbase to be
-maintainable in the long run so refactors of your components (changes to
-implementation but not functionality) don't break your tests and slow you and
-your team down.
-
-## The solution
-
-The `React Testing Library` is a very lightweight solution for testing React
-components. It provides light utility functions on top of `react-dom` and
-`react-dom/test-utils`, in a way that encourages better testing practices. Its
-primary guiding principle is:
-
-> [The more your tests resemble the way your software is used, the more
-> confidence they can give you.][guiding-principle]
+## Prerequisites
+Make sure you have installed all of the following prerequisites on your development machine:
+* `Node.JS` and `Angular CLI`, for building the `kalah-frontend`;
+* `Java 11` and `Maven`, for building the `kalah-backend`;
+* `Docker` and `Docker-Compose`, to build and run the application containers;
 
 ## Installation
+> TODO
 
-This module is distributed via [npm][npm] which is bundled with [node][node] and
-should be installed as one of your project's `devDependencies`:
+## Future Improvements
+* `kalah-frontend`: 
+  * Create a user session management module in order to authenticate and enable multi/single player sessions;
+  * Creation of a matchmaking module to manage the current available games waiting for new players;
+  * Creation of new components to divide better the responsabilities between the communications with REST APIs;
 
-```
-npm install --save-dev @testing-library/react
-```
+* `kalah-backend`:
+  * Management of players and their sessions using JWT tokens;
+  * Matchmaking mechanim to enable online multiplayer gameplay;
+  * Implementation of caching systems like Redis to improve performance of the system;
+  * Implementations should consider a microservices architecture in order to be scalable to manage as much users/game sessions;
 
-or
-
-for installation via [yarn][yarn]
-
-```
-yarn add --dev @testing-library/react
-```
-
-This library has `peerDependencies` listings for `react` and `react-dom`.
-
-You may also be interested in installing `@testing-library/jest-dom` so you can
-use [the custom jest matchers](https://github.com/testing-library/jest-dom).
-
-> [**Docs**](https://testing-library.com/react)
-
+* `General`:
+  * Project build, versioning and deployment automatization;
+  * Re-design of the solution to be a Cloud Native application beign capable of handling with autoscaling (Kubernetes and Cloud Native Apps can be considered);
+  
 
 ## Contributors
 Nathan Ribeiro
