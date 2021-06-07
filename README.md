@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Kalah</h1>
+<h1>Kalah Implementation</h1>
 
 [**Game Rules**](https://en.wikipedia.org/wiki/Kalah)
 </div>
@@ -22,7 +22,7 @@ This solution consists of two applications implemented using Java (Spring Boot S
 
 * `kalah-backend`: Spring Boot service, responsible for creating and managing the game sessions which are stored in a PostgreSQL database server.
 
-* `kalah-frontend`: Angular project responsible for the user interface, it comunicates with the `kalah-backend` in order to create and update the status of the gaming board as well as beign responsible for presenting the game winner once the game is end.
+* `kalah-frontend`: Angular project responsible for the user interface, it comunicates with the `kalah-backend` in order to create plays and update the status of the gaming board as well as, beign responsible for presenting the game winner once the game ends.
 
 ## Architecture
 
@@ -37,7 +37,7 @@ This solution consists of two applications implemented using Java (Spring Boot S
 * `PostgreSQL`, used to store the necessary data;
 * `Docker and Docker-Compose`, containerization of the services and linking containers;
 * `Angular v12`, implementation of user interface;
-* `Angular Material`, Material Design components used in Angular;
+* `Angular Material`, Material Design components used in the application layout;
 * `Angular Flex Layout`, creation of responsive layouts;
 
 ## Prerequisites
@@ -53,16 +53,19 @@ Make sure you have installed all of the following prerequisites on your developm
 * `kalah-frontend`: 
   * Create a user session management module in order to authenticate and enable multi/single player sessions;
   * Creation of a matchmaking module to manage the current available games waiting for new players;
+  * Implementation of Lazy Loading on modules in order to keep the frontend application performant;
   * Creation of new components to divide better the responsabilities between the communications with REST APIs;
 
 * `kalah-backend`:
   * Management of players and their sessions using JWT tokens;
-  * Matchmaking mechanim to enable online multiplayer gameplay;
+  * Matchmaking mechanism to enable online multiplayer gameplay;
+  * Implementation of an Artificial Intelligence module to create singleplayer sessions possible;
+  * Code instrumentation to collect service metrics (CPU and Memory usage, etc.) and forwarding to services like Elasticsearch or Grafana for data visualization;
   * Implementation of caching systems like Redis to improve performance of the system;
-  * Implementations should consider a microservices architecture in order to be scalable to manage as much users/game sessions;
+  * New implementations should consider a microservices architecture in order to be scalable to manage as much users/game sessions in parallel as possible;
 
 * `General`:
-  * Project build, versioning and deployment automatization;
+  * Project build, versioning and deployment automatization using any CI/CD service;
   * Re-design of the solution to be a Cloud Native application beign capable of handling with autoscaling (Kubernetes and Cloud Native Apps can be considered);
 
 
