@@ -64,7 +64,7 @@ Make sure you have installed all of the following prerequisites on your developm
 * `General`:
   * Project build, versioning and deployment automatization;
   * Re-design of the solution to be a Cloud Native application beign capable of handling with autoscaling (Kubernetes and Cloud Native Apps can be considered);
-  
+
 
 ## Contributors
 Nathan Ribeiro
@@ -77,5 +77,5 @@ Nathan Ribeiro
 
 <!-- prettier-ignore-start -->
 [license-badge]: https://img.shields.io/npm/l/@testing-library/react.svg?style=flat-square
-[license]: https://github.com/testing-library/react-testing-library/blob/main/LICENSE
+[license]: https://github.com/nathanlogus/kalah/blob/main/LICENSE
 <!-- prettier-ignore-end -->
