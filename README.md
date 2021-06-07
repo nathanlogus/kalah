@@ -38,7 +38,7 @@ This solution consists of two applications implemented using Java (Spring Boot S
 * `kalah-frontend`: Angular project responsible for the user interface, it comunicates with the `kalah-backend` in order to create plays and update the status of the gaming board as well as, beign responsible for presenting the game winner once the game ends.
 
 ## Architecture
-
+![Architecture Diagram](images/Diagram.png)
 
 ## Technologies
 * `Spring Boot v2.5.0`, for creating RESTful API;
