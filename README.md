@@ -84,8 +84,8 @@ Execute the following commands in order to build and generate the docker contain
 
 1. Enter the `kalah-backend` folder:  
 ``$ cd kalah-backend``
-2. Execute the following maven command to clean the target folder and generate the distributable .jar file:  
-``$ mvn clean install``  
+2. Execute the following maven command to clean the target folder and generate the distributable .jar file **(this command will ignore the unit tests)**:  
+``$ mvn clean install -DskipTests``  
 3. Execute the Docker build to generate the docker container image:  
 ``$ docker build -t kalah-backend .``  
 
@@ -116,6 +116,7 @@ From the root folder of this project execute the following commands.
   * Code instrumentation to collect service metrics (CPU and Memory usage, etc.) and forwarding to services like Elasticsearch or Grafana for data visualization;
   * Implementation of caching systems like Redis to improve performance of the system;
   * New implementations should consider a microservices architecture in order to be scalable to manage as much users/game sessions in parallel as possible;
+  * Add more code coverage on unit testing;
 
 * `General`:
   * Project build, versioning and deployment automatization using any CI/CD service;
