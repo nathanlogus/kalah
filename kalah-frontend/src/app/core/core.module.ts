@@ -8,6 +8,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { GameSetupModalComponent } from './components/game-setup-modal/game-setup-modal.component';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
+import { WinnerModalComponent } from './components/winner-modal/winner-modal.component';
 
 
 
@@ -15,7 +16,8 @@ import { MatButtonModule } from '@angular/material/button';
 @NgModule({
   declarations: [
     BoardComponent,
-    GameSetupModalComponent
+    GameSetupModalComponent,
+    WinnerModalComponent
   ],
   imports: [
     CommonModule,

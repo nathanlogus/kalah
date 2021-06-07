@@ -11,7 +11,7 @@ export class GameService {
   constructor(private http: HttpClient) { }
 
   createNewGame(quantityOfSeeds: Number): Observable<any> {
-    let params = new HttpParams().set('quantityOfSeeds', quantityOfSeeds.toString());
+    let params = new HttpParams().set('numberOfSeeds', quantityOfSeeds.toString());
     let body = {};
     return this.http.post(environment.gameApiUrl, body, { params: params });
   }

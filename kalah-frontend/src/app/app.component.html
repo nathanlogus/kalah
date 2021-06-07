@@ -3,9 +3,9 @@
 </div>
 
 <div fxLayout="row" fxLayoutAlign="space-between">
-  <h2 *ngIf="gameStatus">Current Player: <span class="active">{{checkPlayer()}}</span></h2>
+  <h2 *ngIf="gameStatus">Current Player: <span class="active">{{currentPlayer}}</span></h2>
 </div>
 
 <div fxLayout="row" fxLayoutAlign="space-between" class="board">
-  <app-board [gameStatus]="gameStatus"></app-board>
+  <app-board [gameStatus]="gameStatus" (currentPlayer)="updatePlayer($event)" (winner)="openWinnerDialog($event)"></app-board>
 </div>

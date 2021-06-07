@@ -2,7 +2,6 @@ package com.cycleon.kalah.controller;
 
 
 import com.cycleon.kalah.dto.GameDTO;
-import com.cycleon.kalah.dto.PitDTO;
 import com.cycleon.kalah.model.Game;
 import com.cycleon.kalah.service.KalahGameService;
 import lombok.RequiredArgsConstructor;
@@ -12,9 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-
-import java.util.Comparator;
-import java.util.stream.Collectors;
 
 
 @CrossOrigin
@@ -52,7 +48,7 @@ public class GameController {
 
     @PostMapping("/{gameId}/pits/{pitId}")
     public ResponseEntity<GameDTO> sow(@PathVariable(value = "gameId") Integer gameId, @PathVariable(value = "pitId") Integer pitId){
-        if(pitId.equals(null) || pitId < 1 || pitId >= playerOneHouseIndex || pitId.equals(playerTwoHouseIndex))
+        if(pitId.equals(null) || pitId < 1 || pitId.equals(playerOneHouseIndex) || pitId.equals(playerTwoHouseIndex) || pitId > playerTwoHouseIndex)
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Pit Index is Invalid.");
 
         Game game = kalahGameService.sow(gameId, pitId);
@@ -60,8 +56,5 @@ public class GameController {
         GameDTO gameDTO = kalahGameService.gameToDTO(game);
         return ResponseEntity.ok(gameDTO);
     }
-
-
-
 
 }

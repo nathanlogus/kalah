@@ -1,8 +1,9 @@
 <h2 mat-dialog-title>Kalah Game</h2>
 <mat-dialog-content class="mat-typography">
-    <p>Learn one way to build applications with Angular and reuse your code and abilities to build
-        apps for any deployment target. For web, mobile web, native mobile and native desktop.</p>
-    <h3>Quantity of Seeds: </h3> <mat-slider thumbLabel min="4" max="6" step="1" (change)="changeValue($event)"></mat-slider>
+    <p>Learn how to play the Kalah clicking on the following link:</p>
+    <a href="https://en.wikipedia.org/wiki/Kalah" target="_blank">Kalah - Wikipedia</a>
+    <h2>Settings</h2>
+    <h3>Initial number of seeds in each pit: </h3> <mat-slider thumbLabel min="4" max="6" step="1" (change)="changeValue($event)"></mat-slider>
     <br>
     <button mat-flat-button color="primary" (click)="createNewGame()">Create new game!</button>
 </mat-dialog-content>

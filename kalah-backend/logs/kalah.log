@@ -428,3 +428,559 @@ java.lang.ClassCastException: class com.cycleon.kalah.dto.PitDTO cannot be cast 
 2021-06-06 14:09:02.352  INFO 1091 --- [http-nio-8080-exec-9] c.c.k.service.impl.KalahGameServiceImpl  : Game: 30 registered successfully!
 2021-06-06 14:09:08.122  INFO 1091 --- [http-nio-8080-exec-5] c.c.k.service.impl.KalahGameServiceImpl  : Game: 31 registered successfully!
 2021-06-06 14:10:08.802  INFO 1091 --- [http-nio-8080-exec-4] c.c.k.service.impl.KalahGameServiceImpl  : Game: 32 registered successfully!
+2021-06-06 14:17:06.258  INFO 1091 --- [http-nio-8080-exec-10] c.c.k.service.impl.KalahGameServiceImpl  : Game: 33 registered successfully!
+2021-06-06 14:18:00.442  INFO 1091 --- [http-nio-8080-exec-5] c.c.k.service.impl.KalahGameServiceImpl  : Game: 34 registered successfully!
+2021-06-06 14:18:05.310  WARN 1091 --- [http-nio-8080-exec-7] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:18:20.796  WARN 1091 --- [http-nio-8080-exec-6] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:18:21.538  WARN 1091 --- [http-nio-8080-exec-8] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:18:22.084  WARN 1091 --- [http-nio-8080-exec-10] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:18:22.411  WARN 1091 --- [http-nio-8080-exec-7] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:18:24.943  WARN 1091 --- [http-nio-8080-exec-7] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:18:25.406  WARN 1091 --- [http-nio-8080-exec-9] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:19:12.972  INFO 1091 --- [http-nio-8080-exec-5] c.c.k.service.impl.KalahGameServiceImpl  : Game: 35 registered successfully!
+2021-06-06 14:22:41.332  INFO 1091 --- [http-nio-8080-exec-2] c.c.k.service.impl.KalahGameServiceImpl  : Game: 36 registered successfully!
+2021-06-06 14:23:11.442  INFO 1091 --- [http-nio-8080-exec-3] c.c.k.service.impl.KalahGameServiceImpl  : Game: 37 registered successfully!
+2021-06-06 14:23:14.714  WARN 1091 --- [http-nio-8080-exec-8] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:23:15.581  WARN 1091 --- [http-nio-8080-exec-10] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:23:16.157  WARN 1091 --- [http-nio-8080-exec-9] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:23:17.665  WARN 1091 --- [http-nio-8080-exec-5] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 14:23:28.233  INFO 1091 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 38 registered successfully!
+2021-06-06 14:25:26.630  INFO 1091 --- [http-nio-8080-exec-10] c.c.k.service.impl.KalahGameServiceImpl  : Game: 39 registered successfully!
+2021-06-06 15:26:35.098  WARN 1091 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s701ms), soft-evicting connections from pool.
+2021-06-06 15:31:59.643  WARN 1091 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m24s549ms).
+2021-06-06 16:11:29.496  WARN 1091 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m29s853ms).
+2021-06-06 16:15:16.240  INFO 888 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 888 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 16:15:16.243  INFO 888 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 16:15:16.304  INFO 888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 16:15:16.305  INFO 888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 16:15:17.295  INFO 888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 16:15:17.402  INFO 888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2021-06-06 16:15:18.267  INFO 888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 16:15:18.282  INFO 888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 16:15:18.282  INFO 888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:15:18.374  INFO 888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 16:15:18.375  INFO 888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2070 ms
+2021-06-06 16:15:18.605  INFO 888 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 16:15:18.675  INFO 888 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 16:15:18.855  INFO 888 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 16:15:18.983  INFO 888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 16:15:19.143  INFO 888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 16:15:19.166  INFO 888 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 16:15:19.969  INFO 888 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 16:15:19.978  INFO 888 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 16:15:20.629  WARN 888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 16:15:20.812  INFO 888 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 16:15:20.989  INFO 888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 16:15:21.247  INFO 888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 16:15:21.248  INFO 888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 16:15:21.291  INFO 888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 16:15:21.329  INFO 888 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 16:15:21.560  INFO 888 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 5.9 seconds (JVM running for 7.443)
+2021-06-06 16:15:21.562  INFO 888 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 16:15:21.565  INFO 888 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:16:19.934  INFO 925 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 925 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 16:16:19.942  INFO 925 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 16:16:20.064  INFO 925 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 16:16:20.065  INFO 925 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 16:16:21.619  INFO 925 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 16:16:21.726  INFO 925 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces.
+2021-06-06 16:16:22.948  INFO 925 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 16:16:22.973  INFO 925 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 16:16:22.975  INFO 925 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:16:23.136  INFO 925 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 16:16:23.136  INFO 925 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3070 ms
+2021-06-06 16:16:23.487  INFO 925 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 16:16:23.580  INFO 925 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 16:16:23.820  INFO 925 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 16:16:24.004  INFO 925 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 16:16:24.246  INFO 925 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 16:16:24.276  INFO 925 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 16:16:25.560  INFO 925 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 16:16:25.577  INFO 925 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 16:16:26.890  WARN 925 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 16:16:27.204  INFO 925 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 16:16:27.446  INFO 925 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 16:16:27.807  INFO 925 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 16:16:27.810  INFO 925 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 16:16:27.844  INFO 925 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 16:16:27.894  INFO 925 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 16:16:28.217  INFO 925 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 9.244 seconds (JVM running for 11.218)
+2021-06-06 16:16:28.220  INFO 925 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 16:16:28.223  INFO 925 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:16:33.213  INFO 925 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 16:16:33.216  INFO 925 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 16:16:33.227  INFO 925 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-06-06 16:17:55.571  WARN 925 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s218ms).
+2021-06-06 16:17:58.322  INFO 925 --- [http-nio-8080-exec-2] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 16:17:58.322  INFO 925 --- [http-nio-8080-exec-4] c.c.k.service.impl.KalahGameServiceImpl  : Game: 2 registered successfully!
+2021-06-06 16:19:05.060  WARN 925 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s490ms).
+2021-06-06 16:19:07.098  INFO 925 --- [http-nio-8080-exec-6] c.c.k.service.impl.KalahGameServiceImpl  : Game: 3 registered successfully!
+2021-06-06 16:19:07.125  INFO 925 --- [http-nio-8080-exec-9] c.c.k.service.impl.KalahGameServiceImpl  : Game: 4 registered successfully!
+2021-06-06 16:19:38.274  WARN 925 --- [http-nio-8080-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 16:21:51.627  WARN 925 --- [http-nio-8080-exec-5] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 16:22:05.483  INFO 925 --- [http-nio-8080-exec-8] c.c.k.service.impl.KalahGameServiceImpl  : Game: 5 registered successfully!
+2021-06-06 16:23:48.448  WARN 925 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s207ms).
+2021-06-06 16:24:15.316  INFO 1022 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 1022 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 16:24:15.324  INFO 1022 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 16:24:15.376  INFO 1022 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 16:24:15.377  INFO 1022 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 16:24:16.404  INFO 1022 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 16:24:16.515  INFO 1022 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 2 JPA repository interfaces.
+2021-06-06 16:24:17.359  INFO 1022 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 16:24:17.380  INFO 1022 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 16:24:17.381  INFO 1022 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:24:17.517  INFO 1022 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 16:24:17.518  INFO 1022 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2141 ms
+2021-06-06 16:24:17.747  INFO 1022 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 16:24:17.802  INFO 1022 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 16:24:18.012  INFO 1022 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 16:24:18.157  INFO 1022 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 16:24:18.333  INFO 1022 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 16:24:18.349  INFO 1022 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 16:24:19.351  INFO 1022 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 16:24:19.359  INFO 1022 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 16:24:19.955  WARN 1022 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 16:24:20.086  INFO 1022 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 16:24:20.188  INFO 1022 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 16:24:20.374  INFO 1022 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 16:24:20.375  INFO 1022 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 16:24:20.393  INFO 1022 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 16:24:20.418  INFO 1022 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 16:24:20.573  INFO 1022 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 5.837 seconds (JVM running for 6.667)
+2021-06-06 16:24:20.574  INFO 1022 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 16:24:20.577  INFO 1022 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:24:25.224  INFO 1022 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 16:24:25.237  INFO 1022 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 16:24:25.240  INFO 1022 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-06 16:24:38.675  INFO 1022 --- [http-nio-8080-exec-7] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 16:26:41.329  WARN 1022 --- [http-nio-8080-exec-3] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 16:29:38.602  WARN 1022 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s911ms).
+2021-06-06 16:29:38.608  WARN 1022 --- [http-nio-8080-exec-1] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 16:29:38.674  INFO 1022 --- [http-nio-8080-exec-6] c.c.k.service.impl.KalahGameServiceImpl  : Game: 2 registered successfully!
+2021-06-06 16:29:38.675  INFO 1022 --- [http-nio-8080-exec-5] c.c.k.service.impl.KalahGameServiceImpl  : Game: 3 registered successfully!
+2021-06-06 16:31:30.593  WARN 1022 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m51s990ms).
+2021-06-06 16:31:30.605  WARN 1022 --- [http-nio-8080-exec-9] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 16:32:39.817  INFO 1084 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 1084 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 16:32:39.829  INFO 1084 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 16:32:39.887  INFO 1084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 16:32:39.887  INFO 1084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 16:32:40.739  INFO 1084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 16:32:40.801  INFO 1084 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2021-06-06 16:32:41.398  INFO 1084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 16:32:41.409  INFO 1084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 16:32:41.410  INFO 1084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:32:41.480  INFO 1084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 16:32:41.480  INFO 1084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1592 ms
+2021-06-06 16:32:41.679  INFO 1084 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 16:32:41.723  INFO 1084 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 16:32:41.836  INFO 1084 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 16:32:41.934  INFO 1084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 16:32:42.044  INFO 1084 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 16:32:42.059  INFO 1084 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 16:32:42.688  INFO 1084 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 16:32:42.696  INFO 1084 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 16:32:43.272  WARN 1084 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 16:32:43.404  INFO 1084 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 16:32:43.516  INFO 1084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 16:32:43.698  INFO 1084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 16:32:43.700  INFO 1084 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 16:32:43.727  INFO 1084 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 16:32:43.750  INFO 1084 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 16:32:43.899  INFO 1084 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 4.673 seconds (JVM running for 5.472)
+2021-06-06 16:32:43.901  INFO 1084 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 16:32:43.903  INFO 1084 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:33:01.370  INFO 1084 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 16:33:01.371  INFO 1084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 16:33:01.373  INFO 1084 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-06 16:33:01.529  INFO 1084 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 16:33:07.817  WARN 1084 --- [http-nio-8080-exec-3] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 16:33:41.353  WARN 1084 --- [http-nio-8080-exec-4] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Pit Index is Invalid."]
+2021-06-06 16:33:45.486  INFO 1090 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 1090 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 16:33:45.495  INFO 1090 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 16:33:45.597  INFO 1090 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 16:33:45.598  INFO 1090 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 16:33:46.500  INFO 1090 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 16:33:46.556  INFO 1090 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2021-06-06 16:33:47.262  INFO 1090 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 16:33:47.273  INFO 1090 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 16:33:47.273  INFO 1090 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:33:47.346  INFO 1090 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 16:33:47.346  INFO 1090 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1747 ms
+2021-06-06 16:33:47.562  INFO 1090 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 16:33:47.621  INFO 1090 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 16:33:47.750  INFO 1090 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 16:33:47.847  INFO 1090 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 16:33:47.966  INFO 1090 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 16:33:47.981  INFO 1090 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 16:33:48.629  INFO 1090 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 16:33:48.636  INFO 1090 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 16:33:49.197  WARN 1090 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 16:33:49.347  INFO 1090 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 16:33:49.458  INFO 1090 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 16:33:49.744  INFO 1090 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 16:33:49.745  INFO 1090 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 16:33:49.766  INFO 1090 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 16:33:49.789  INFO 1090 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 16:33:50.017  INFO 1090 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 5.101 seconds (JVM running for 5.848)
+2021-06-06 16:33:50.020  INFO 1090 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 16:33:50.024  INFO 1090 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:33:53.056  INFO 1090 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 16:33:53.058  INFO 1090 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 16:33:53.059  INFO 1090 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-06 16:33:53.208  INFO 1090 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 16:35:16.183  INFO 1110 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 1110 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 16:35:16.190  INFO 1110 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 16:35:16.244  INFO 1110 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 16:35:16.245  INFO 1110 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 16:35:17.082  INFO 1110 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 16:35:17.142  INFO 1110 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2021-06-06 16:35:17.800  INFO 1110 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 16:35:17.812  INFO 1110 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 16:35:17.812  INFO 1110 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:35:17.886  INFO 1110 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 16:35:17.887  INFO 1110 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1640 ms
+2021-06-06 16:35:18.087  INFO 1110 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 16:35:18.135  INFO 1110 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 16:35:18.255  INFO 1110 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 16:35:18.366  INFO 1110 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 16:35:18.486  INFO 1110 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 16:35:18.501  INFO 1110 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 16:35:19.153  INFO 1110 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 16:35:19.162  INFO 1110 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 16:35:19.775  WARN 1110 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 16:35:19.933  INFO 1110 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 16:35:20.052  INFO 1110 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 16:35:20.258  INFO 1110 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 16:35:20.260  INFO 1110 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 16:35:20.285  INFO 1110 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 16:35:20.312  INFO 1110 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 16:35:20.473  INFO 1110 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 4.917 seconds (JVM running for 6.475)
+2021-06-06 16:35:20.486  INFO 1110 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 16:35:20.489  INFO 1110 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:35:23.326  INFO 1110 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 16:35:23.327  INFO 1110 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 16:35:23.329  INFO 1110 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-06 16:35:23.470  INFO 1110 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 16:41:38.505  WARN 1110 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s707ms).
+2021-06-06 16:41:43.010  INFO 1135 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 1135 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 16:41:43.015  INFO 1135 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 16:41:43.074  INFO 1135 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 16:41:43.074  INFO 1135 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 16:41:43.994  INFO 1135 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 16:41:44.054  INFO 1135 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2021-06-06 16:41:44.733  INFO 1135 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 16:41:44.744  INFO 1135 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 16:41:44.745  INFO 1135 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 16:41:44.819  INFO 1135 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 16:41:44.820  INFO 1135 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1744 ms
+2021-06-06 16:41:45.076  INFO 1135 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 16:41:45.126  INFO 1135 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 16:41:45.251  INFO 1135 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 16:41:45.352  INFO 1135 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 16:41:45.465  INFO 1135 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 16:41:45.482  INFO 1135 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 16:41:46.185  INFO 1135 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 16:41:46.195  INFO 1135 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 16:41:47.008  WARN 1135 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 16:41:47.177  INFO 1135 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 16:41:47.303  INFO 1135 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 16:41:47.489  INFO 1135 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 16:41:47.490  INFO 1135 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 16:41:47.508  INFO 1135 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 16:41:47.533  INFO 1135 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 16:41:47.699  INFO 1135 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 5.329 seconds (JVM running for 6.1)
+2021-06-06 16:41:47.701  INFO 1135 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 16:41:47.703  INFO 1135 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 16:41:50.291  INFO 1135 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 16:41:50.292  INFO 1135 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 16:41:50.293  INFO 1135 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-06 16:41:50.462  INFO 1135 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 17:27:47.617  INFO 1135 --- [http-nio-8080-exec-9] c.c.k.service.impl.KalahGameServiceImpl  : Game: 2 registered successfully!
+2021-06-06 17:46:08.913  INFO 2228 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 2228 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 17:46:08.916  INFO 2228 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 17:46:08.966  INFO 2228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 17:46:08.966  INFO 2228 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 17:46:09.785  INFO 2228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 17:46:09.842  INFO 2228 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2021-06-06 17:46:10.449  INFO 2228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 17:46:10.463  INFO 2228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 17:46:10.463  INFO 2228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 17:46:10.536  INFO 2228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 17:46:10.536  INFO 2228 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1569 ms
+2021-06-06 17:46:10.724  INFO 2228 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 17:46:10.773  INFO 2228 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 17:46:10.897  INFO 2228 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 17:46:10.996  INFO 2228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 17:46:11.107  INFO 2228 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 17:46:11.124  INFO 2228 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 17:46:11.781  INFO 2228 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 17:46:11.789  INFO 2228 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 17:46:12.321  WARN 2228 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 17:46:12.465  INFO 2228 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 17:46:12.569  INFO 2228 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 17:46:12.741  INFO 2228 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 17:46:12.742  INFO 2228 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 17:46:12.761  INFO 2228 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 17:46:12.790  INFO 2228 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 17:46:12.962  INFO 2228 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 4.625 seconds (JVM running for 5.384)
+2021-06-06 17:46:12.963  INFO 2228 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 17:46:12.966  INFO 2228 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 17:46:19.711  INFO 2228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 17:46:19.712  INFO 2228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 17:46:19.713  INFO 2228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-06 17:46:19.860  INFO 2228 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 17:48:51.280  INFO 2228 --- [http-nio-8080-exec-3] c.c.k.service.impl.KalahGameServiceImpl  : Game: 2 registered successfully!
+2021-06-06 17:51:26.964  INFO 2228 --- [http-nio-8080-exec-4] c.c.k.service.impl.KalahGameServiceImpl  : Game: 3 registered successfully!
+2021-06-06 18:14:37.514  INFO 2324 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 2324 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 18:14:37.518  INFO 2324 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 18:14:37.580  INFO 2324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 18:14:37.580  INFO 2324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 18:14:38.443  INFO 2324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 18:14:38.518  INFO 2324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2021-06-06 18:14:39.153  INFO 2324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 18:14:39.169  INFO 2324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 18:14:39.169  INFO 2324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 18:14:39.243  INFO 2324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 18:14:39.243  INFO 2324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1662 ms
+2021-06-06 18:14:39.450  INFO 2324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 18:14:39.510  INFO 2324 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 18:14:39.643  INFO 2324 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 18:14:39.739  INFO 2324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 18:14:39.846  INFO 2324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 18:14:39.862  INFO 2324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 18:14:40.509  INFO 2324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 18:14:40.517  INFO 2324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 18:14:41.056  WARN 2324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 18:14:41.194  INFO 2324 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 18:14:41.305  INFO 2324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 18:14:41.488  INFO 2324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 18:14:41.489  INFO 2324 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 18:14:41.510  INFO 2324 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 18:14:41.537  INFO 2324 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 18:14:41.691  INFO 2324 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 4.791 seconds (JVM running for 5.559)
+2021-06-06 18:14:41.692  INFO 2324 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 18:14:41.694  INFO 2324 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 18:14:48.989  INFO 2324 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 18:14:48.990  INFO 2324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 18:14:48.992  INFO 2324 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-06 18:14:49.154  INFO 2324 --- [http-nio-8080-exec-2] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 18:18:47.144  WARN 2324 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s284ms).
+2021-06-06 18:21:37.303  INFO 2369 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 2369 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 18:21:37.306  INFO 2369 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 18:21:37.358  INFO 2369 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 18:21:37.359  INFO 2369 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 18:21:38.292  INFO 2369 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 18:21:38.359  INFO 2369 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+2021-06-06 18:21:39.012  INFO 2369 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 18:21:39.023  INFO 2369 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 18:21:39.023  INFO 2369 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 18:21:39.095  INFO 2369 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 18:21:39.095  INFO 2369 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1736 ms
+2021-06-06 18:21:39.295  INFO 2369 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 18:21:39.354  INFO 2369 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 18:21:39.517  INFO 2369 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 18:21:39.624  INFO 2369 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 18:21:39.737  INFO 2369 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 18:21:39.758  INFO 2369 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 18:21:40.490  INFO 2369 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 18:21:40.501  INFO 2369 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 18:21:41.086  WARN 2369 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 18:21:41.229  INFO 2369 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 18:21:41.342  INFO 2369 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 18:21:41.541  INFO 2369 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 18:21:41.542  INFO 2369 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 18:21:41.566  INFO 2369 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 18:21:41.587  INFO 2369 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 18:21:41.752  INFO 2369 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 5.037 seconds (JVM running for 5.779)
+2021-06-06 18:21:41.754  INFO 2369 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 18:21:41.756  INFO 2369 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 18:21:46.682  INFO 2369 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 18:21:46.682  INFO 2369 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 18:21:46.683  INFO 2369 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-06 18:21:46.829  INFO 2369 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 18:22:43.097  INFO 2382 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 2382 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 18:22:43.101  INFO 2382 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 18:22:43.163  INFO 2382 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 18:22:43.164  INFO 2382 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 18:22:43.966  INFO 2382 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 18:22:44.027  INFO 2382 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2021-06-06 18:22:44.640  INFO 2382 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 18:22:44.651  INFO 2382 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 18:22:44.651  INFO 2382 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 18:22:44.726  INFO 2382 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 18:22:44.726  INFO 2382 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2021-06-06 18:22:44.932  INFO 2382 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 18:22:44.983  INFO 2382 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 18:22:45.115  INFO 2382 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 18:22:45.215  INFO 2382 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 18:22:45.333  INFO 2382 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 18:22:45.353  INFO 2382 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 18:22:46.018  INFO 2382 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 18:22:46.025  INFO 2382 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 18:22:46.602  WARN 2382 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 18:22:46.749  INFO 2382 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 18:22:46.867  INFO 2382 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 18:22:47.066  INFO 2382 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 18:22:47.067  INFO 2382 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 18:22:47.098  INFO 2382 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 18:22:47.124  INFO 2382 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 18:22:47.281  INFO 2382 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 4.751 seconds (JVM running for 5.458)
+2021-06-06 18:22:47.284  INFO 2382 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 18:22:47.288  INFO 2382 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 18:23:00.455  INFO 2382 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 18:23:00.455  INFO 2382 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 18:23:00.457  INFO 2382 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-06 18:23:00.633  INFO 2382 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 18:25:46.630  INFO 2411 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 2411 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 18:25:46.633  INFO 2411 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 18:25:46.684  INFO 2411 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 18:25:46.684  INFO 2411 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 18:25:47.485  INFO 2411 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 18:25:47.547  INFO 2411 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2021-06-06 18:25:48.160  INFO 2411 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 18:25:48.172  INFO 2411 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 18:25:48.172  INFO 2411 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 18:25:48.246  INFO 2411 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 18:25:48.247  INFO 2411 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2021-06-06 18:25:48.437  INFO 2411 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 18:25:48.488  INFO 2411 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 18:25:48.620  INFO 2411 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 18:25:48.716  INFO 2411 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 18:25:48.825  INFO 2411 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 18:25:48.842  INFO 2411 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 18:25:49.505  INFO 2411 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 18:25:49.513  INFO 2411 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 18:25:50.076  WARN 2411 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 18:25:50.224  INFO 2411 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 18:25:50.332  INFO 2411 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 18:25:50.509  INFO 2411 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 18:25:50.510  INFO 2411 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 18:25:50.530  INFO 2411 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 18:25:50.557  INFO 2411 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 18:25:50.718  INFO 2411 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 4.619 seconds (JVM running for 5.312)
+2021-06-06 18:25:50.720  INFO 2411 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 18:25:50.722  INFO 2411 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 18:25:55.992  INFO 2411 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 18:25:55.993  INFO 2411 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 18:25:55.994  INFO 2411 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-06 18:25:56.146  INFO 2411 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 18:27:45.464  INFO 2411 --- [http-nio-8080-exec-8] c.c.k.service.impl.KalahGameServiceImpl  : Game: 2 registered successfully!
+2021-06-06 18:30:14.549  WARN 2411 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s598ms).
+2021-06-06 18:32:55.565  WARN 2411 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m41s17ms).
+2021-06-06 18:58:26.488  INFO 2411 --- [http-nio-8080-exec-6] c.c.k.service.impl.KalahGameServiceImpl  : Game: 3 registered successfully!
+2021-06-06 18:58:41.570  INFO 2528 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 2528 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 18:58:41.581  INFO 2528 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 18:58:41.646  INFO 2528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 18:58:41.646  INFO 2528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 18:58:42.538  INFO 2528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 18:58:42.605  INFO 2528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2021-06-06 18:58:43.264  INFO 2528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 18:58:43.276  INFO 2528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 18:58:43.277  INFO 2528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 18:58:43.357  INFO 2528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 18:58:43.357  INFO 2528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1710 ms
+2021-06-06 18:58:43.552  INFO 2528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 18:58:43.603  INFO 2528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 18:58:43.734  INFO 2528 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 18:58:43.841  INFO 2528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 18:58:43.953  INFO 2528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 18:58:43.969  INFO 2528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 18:58:44.623  INFO 2528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 18:58:44.631  INFO 2528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 18:58:45.235  WARN 2528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 18:58:45.375  INFO 2528 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 18:58:45.488  INFO 2528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 18:58:45.673  INFO 2528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 18:58:45.674  INFO 2528 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 18:58:45.695  INFO 2528 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 18:58:45.719  INFO 2528 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 18:58:45.889  INFO 2528 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 4.949 seconds (JVM running for 5.668)
+2021-06-06 18:58:45.891  INFO 2528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 18:58:45.893  INFO 2528 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 18:58:53.288  INFO 2528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 18:58:53.289  INFO 2528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 18:58:53.291  INFO 2528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-06 18:58:53.446  INFO 2528 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 19:02:56.386  WARN 2528 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s313ms).
+2021-06-06 19:05:35.498  WARN 2528 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m39s113ms).
+2021-06-06 19:05:55.802  INFO 2549 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 2549 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 19:05:55.808  INFO 2549 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 19:05:55.859  INFO 2549 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 19:05:55.860  INFO 2549 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 19:05:56.727  INFO 2549 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 19:05:56.791  INFO 2549 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2021-06-06 19:05:57.482  INFO 2549 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 19:05:57.496  INFO 2549 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 19:05:57.496  INFO 2549 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 19:05:57.578  INFO 2549 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 19:05:57.579  INFO 2549 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1718 ms
+2021-06-06 19:05:57.787  INFO 2549 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 19:05:57.847  INFO 2549 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 19:05:58.007  INFO 2549 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 19:05:58.120  INFO 2549 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 19:05:58.243  INFO 2549 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 19:05:58.261  INFO 2549 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 19:05:59.077  INFO 2549 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 19:05:59.095  INFO 2549 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 19:05:59.665  WARN 2549 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 19:05:59.811  INFO 2549 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 19:05:59.916  INFO 2549 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 19:06:00.112  INFO 2549 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 19:06:00.113  INFO 2549 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 19:06:00.146  INFO 2549 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 19:06:00.171  INFO 2549 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 19:06:00.339  INFO 2549 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 5.112 seconds (JVM running for 5.916)
+2021-06-06 19:06:00.341  INFO 2549 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 19:06:00.344  INFO 2549 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 19:06:06.382  INFO 2549 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 19:06:06.383  INFO 2549 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 19:06:06.386  INFO 2549 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-06 19:06:06.546  INFO 2549 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 19:10:05.870  INFO 2549 --- [http-nio-8080-exec-5] c.c.k.service.impl.KalahGameServiceImpl  : Game: 2 registered successfully!
+2021-06-06 19:29:37.641  INFO 2549 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 3 registered successfully!
+2021-06-06 19:38:15.910  INFO 2549 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 4 registered successfully!
+2021-06-06 19:39:52.019  INFO 2549 --- [http-nio-8080-exec-4] c.c.k.service.impl.KalahGameServiceImpl  : Game: 5 registered successfully!
+2021-06-06 21:35:43.031  INFO 939 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Starting KalahApplication using Java 11.0.10 on MacBook-Pro-de-nathan.local with PID 939 (/Users/nathan/Development/kalah/kalah-backend/target/classes started by nathan in /Users/nathan/Development/kalah/kalah-backend)
+2021-06-06 21:35:43.039  INFO 939 --- [restartedMain] com.cycleon.kalah.KalahApplication       : No active profile set, falling back to default profiles: default
+2021-06-06 21:35:43.139  INFO 939 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-06 21:35:43.140  INFO 939 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-06 21:35:44.759  INFO 939 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-06 21:35:44.899  INFO 939 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2021-06-06 21:35:46.778  INFO 939 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-06 21:35:46.806  INFO 939 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-06 21:35:46.807  INFO 939 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-06 21:35:47.098  INFO 939 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-06 21:35:47.099  INFO 939 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3958 ms
+2021-06-06 21:35:47.416  INFO 939 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-06 21:35:47.515  INFO 939 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-06 21:35:47.737  INFO 939 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-06 21:35:47.999  INFO 939 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-06 21:35:48.295  INFO 939 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-06 21:35:48.331  INFO 939 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-06-06 21:35:49.952  INFO 939 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-06 21:35:49.964  INFO 939 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-06 21:35:50.828  WARN 939 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-06 21:35:51.040  INFO 939 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-06 21:35:51.242  INFO 939 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-06 21:35:51.624  INFO 939 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-06 21:35:51.625  INFO 939 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-06 21:35:51.651  INFO 939 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-06 21:35:51.680  INFO 939 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-06 21:35:51.928  INFO 939 --- [restartedMain] com.cycleon.kalah.KalahApplication       : Started KalahApplication in 10.011 seconds (JVM running for 12.305)
+2021-06-06 21:35:51.930  INFO 939 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-06 21:35:51.933  INFO 939 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-06 21:37:05.614  INFO 939 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-06 21:37:05.617  INFO 939 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-06 21:37:05.629  INFO 939 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2021-06-06 21:37:05.940  INFO 939 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 1 registered successfully!
+2021-06-06 21:37:54.715  INFO 939 --- [http-nio-8080-exec-8] c.c.k.service.impl.KalahGameServiceImpl  : Game: 2 registered successfully!
+2021-06-06 21:39:08.340  INFO 939 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 3 registered successfully!
+2021-06-06 22:01:10.277  INFO 939 --- [http-nio-8080-exec-4] c.c.k.service.impl.KalahGameServiceImpl  : Game: 4 registered successfully!
+2021-06-06 22:01:40.894  INFO 939 --- [http-nio-8080-exec-7] c.c.k.service.impl.KalahGameServiceImpl  : Game: 5 registered successfully!
+2021-06-06 22:02:00.614  INFO 939 --- [http-nio-8080-exec-9] c.c.k.service.impl.KalahGameServiceImpl  : Game: 6 registered successfully!
+2021-06-06 22:02:09.203  INFO 939 --- [http-nio-8080-exec-2] c.c.k.service.impl.KalahGameServiceImpl  : Game: 7 registered successfully!
+2021-06-06 22:02:14.537  INFO 939 --- [http-nio-8080-exec-4] c.c.k.service.impl.KalahGameServiceImpl  : Game: 8 registered successfully!
+2021-06-06 22:02:27.729  INFO 939 --- [http-nio-8080-exec-6] c.c.k.service.impl.KalahGameServiceImpl  : Game: 9 registered successfully!
+2021-06-06 22:02:33.906  INFO 939 --- [http-nio-8080-exec-8] c.c.k.service.impl.KalahGameServiceImpl  : Game: 10 registered successfully!
+2021-06-06 22:03:10.169  INFO 939 --- [http-nio-8080-exec-1] c.c.k.service.impl.KalahGameServiceImpl  : Game: 11 registered successfully!
+2021-06-06 22:03:46.820  INFO 939 --- [http-nio-8080-exec-4] c.c.k.service.impl.KalahGameServiceImpl  : Game: 12 registered successfully!

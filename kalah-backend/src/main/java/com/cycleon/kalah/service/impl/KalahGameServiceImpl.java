@@ -18,6 +18,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -96,7 +97,7 @@ public class KalahGameServiceImpl implements KalahGameService {
         }
 
         if(game.getPlayerTurn().equals(PlayerTurn.PLAYER_SOUTH) && pitIndex > playerOneHouseIndex ||
-           game.getPlayerTurn().equals(PlayerTurn.PLAYER_NORTH) && pitIndex < playerTwoHouseIndex)
+           game.getPlayerTurn().equals(PlayerTurn.PLAYER_NORTH) && pitIndex < playerOneHouseIndex)
             return game;
 
 
@@ -110,7 +111,7 @@ public class KalahGameServiceImpl implements KalahGameService {
 
         game.setCurrentPitIndex(pitIndex);
 
-        for(Integer i = 0; i < seedsInPit; i++){
+        for(Integer i = 0; i < seedsInPit - 1; i++){
             sowRight(game, false);
         }
 
@@ -120,6 +121,8 @@ public class KalahGameServiceImpl implements KalahGameService {
 
         if(!currentPitIndex.equals(playerOneHouseIndex) && !currentPitIndex.equals(playerTwoHouseIndex))
             game.setPlayerTurn(nextTurn(game.getPlayerTurn()));
+
+        checkGameOver(game);
         return game;
     }
 
@@ -163,5 +166,23 @@ public class KalahGameServiceImpl implements KalahGameService {
         if(currentTurn.equals(PlayerTurn.PLAYER_NORTH))
             return PlayerTurn.PLAYER_SOUTH;
         return PlayerTurn.PLAYER_NORTH;
+    }
+
+    private void checkGameOver(Game game){
+        Integer playerOneSeeds = game.getPits().stream().filter(p -> p.getPitIdentifier() >= pitStartIndex && p.getPitIdentifier() < playerOneHouseIndex).mapToInt(Pit::getQuantityOfSeeds).sum();
+        Integer playerTwoSeeds = game.getPits().stream().filter(p -> p.getPitIdentifier() > playerOneHouseIndex && p.getPitIdentifier() < playerTwoHouseIndex).mapToInt(Pit::getQuantityOfSeeds).sum();
+        if(playerOneSeeds.equals(0) || playerTwoSeeds.equals(0)){
+            Pit houseSouth = game.getPits().stream().filter(p -> p.getPitIdentifier().equals(playerOneHouseIndex)).findFirst().get();
+            Pit houseNorth = game.getPits().stream().filter(p -> p.getPitIdentifier().equals(playerTwoHouseIndex)).findFirst().get();
+            houseSouth.setQuantityOfSeeds(houseSouth.getQuantityOfSeeds() + playerOneSeeds);
+            houseNorth.setQuantityOfSeeds(houseNorth.getQuantityOfSeeds() + playerTwoSeeds);
+
+            game.getPits().forEach(pit -> {
+                if(pit.getPitIdentifier() != playerOneHouseIndex && pit.getPitIdentifier() != playerTwoHouseIndex){
+                    pit.setQuantityOfSeeds(0);
+                }
+            });
+        }
+
     }
 }
